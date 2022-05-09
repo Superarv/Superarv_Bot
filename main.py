@@ -84,8 +84,7 @@ async def on_message(message):
     ansSelected = eight_ballanswers[ansIndex]
     await message.channel.send(ansSelected)
 
-  if message.content == '!help':
-    await message.channel.send('Received')
+  
 
   if message.content.startswith('!simonsays') and message.author != bot:
     message_txt = message.content
@@ -120,6 +119,10 @@ async def on_message(message):
       await ctx.send(f"Correct, good job {user}")
     else:
       await ctx.send(f"That is incorrect {user}, the answer is **{aSelected}**")
+
+  if message.content == '!help':
+    ctx = message.channel
+    ctx.send("List of commands: (!hello: bot replies with sup), (!quote: bot gives you a random quote), (!8ball {question}: will give you a randomized answer), (!simonsays {text}: bot will repeat {text} back to you), (!meme: generates a random breaking bad meme), (!gif: generates a random breaking bad gif), (!carquiz: quizzes your knowledge of car brands)")
 
       
 
