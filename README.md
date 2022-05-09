@@ -8,7 +8,6 @@ Run on replit.com webserver. It is pinged every 5 minutes by uptime robot.
 ```
 ### The Great TO-DO List
 ``` txt
-- Upload Bot onto the cloud for constant up-time
 - Add a sectioned timer between different activity status
 - Implement a ranking system for number of message sent by user
 - Allow bot to be invited to many different servers
