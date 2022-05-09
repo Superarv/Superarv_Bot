@@ -4,8 +4,7 @@ This is a multipurpose discord bot developed by me. It will have more features a
 
 
 ``` txt
-05/07/22 v0.0.1: "!hello" and on_ready activity status added
-05/08/22 v0.0.2: "!quote" and 8_ball functions added
+Run on replit.com webserver. It is pinged every 5 minutes by uptime robot.
 ```
 ### The Great TO-DO List
 ``` txt
