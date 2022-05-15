@@ -4,7 +4,7 @@ import time
 import random
 #import vexpy as vp
 import wikipedia
-#from keep_alive import keep_alive
+from keepAlive import keep_alive
 import asyncio
 
 
@@ -156,5 +156,5 @@ async def on_message(message):
 
     
       
-#keep_alive()
+keep_alive()
 bot.run(os.getenv('TOKEN'))
